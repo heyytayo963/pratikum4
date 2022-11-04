@@ -48,4 +48,20 @@ def nilai_tengah (a, b, c):
   ![gambar](gam3.png)
   
   ## Tugas 4
-  
+  - masukan nilai n dengan (int) 
+  - masukan perintah import random untuk memasukan pilihan 
+ ```
+  N = int(input("Masukkan nilai N :"))
+import random
+jumlah = 5
+```
+- setelah itu masukan nilai a dengan bilangan bulat mulai dari 0
+- lalu bikin variable i dan masukan perintah range 
+- ketik perintah random uniform
+```
+a = 0
+for i in range (jumlah):
+    i = random.uniform(.0,.5)
+    a+=1
+```
+![gambar](gam4.png)
